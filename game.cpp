@@ -1,3 +1,10 @@
+/*
+    This moment made me think about life.
+    Whatever happens, keep going.
+    Keep chasing your dreams.
+    Life changes, never give up.
+*/
+
 #include <bits/stdc++.h>
 #include <termios.h>
 #include <unistd.h>
@@ -19,7 +26,7 @@ void init_terminal() {
     new_settings.c_lflag &= ~(ICANON | ECHO);
     new_settings.c_cc[VMIN] = 0;   
     new_settings.c_cc[VTIME] = 0;  
-        
+
     if (tcsetattr(0, TCSANOW, &new_settings) < 0) {
         perror("tcsetattr raw mode");
     }
