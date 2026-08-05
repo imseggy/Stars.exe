@@ -2,8 +2,9 @@ Stars.exe ⭐
 
 A small CLI game made in 50 minutes at 5 AM.
 
-🚀 Run the game
-git clone https://github.com/imseggy/stars.exe.git
+** 🚀 Run the game**
+
+git clone https://github.com/imseggy/Stars.exe.git
 cd stars.exe
 g++ main.cpp -o stars.exe
 ./stars.exe
